@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent i = new Intent(MainActivity.this,Game.class);
+                Intent i = new Intent(MainActivity.this,PlayerName.class);
                 startActivity(i);
             }
         });
